@@ -1,5 +1,5 @@
 ﻿using RobotCleaner.ConsoleApp.Interfaces;
-using RobotCleaner.Infrastructure.Repository.Interfaces;
+using RobotCleaner.Domain.Interfaces;
 using RobotCleaner.Infrastructure.Repository.Repositories;
 using RobotCleaner.AppServices.Interfaces;
 using RobotCleaner.AppServices.Services;

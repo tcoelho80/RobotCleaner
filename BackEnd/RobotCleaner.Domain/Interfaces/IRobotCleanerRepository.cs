@@ -3,7 +3,7 @@ using RobotCleaner.Domain;
 using RobotCleaner.Domain.Enumerator;
 using RobotCleaner.Domain.ValueObjects;
 
-namespace RobotCleaner.Infrastructure.Repository.Interfaces
+namespace RobotCleaner.Domain.Interfaces
 {
     public interface IRobotCleanerRepository
     {

@@ -1,4 +1,4 @@
-﻿using RobotCleaner.Infrastructure.Repository.Interfaces;
+﻿using RobotCleaner.Domain.Interfaces;
 using RobotCleaner.Domain.ValueObjects;
 using RobotCleaner.Domain.Enumerator;
 using System.Collections.Generic;

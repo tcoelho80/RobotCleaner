@@ -2,7 +2,7 @@
 using RobotCleaner.AppServices.Interfaces;
 using RobotCleaner.Domain.Enumerator;
 using RobotCleaner.Domain.ValueObjects;
-using RobotCleaner.Infrastructure.Repository.Interfaces;
+using RobotCleaner.Domain.Interfaces;
 using System.Collections.Generic;
 
 namespace RobotCleaner.AppServices.Services

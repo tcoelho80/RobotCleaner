@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using RobotCleaner.AppServices.Interfaces;
 using RobotCleaner.AppServices.Services;
-using RobotCleaner.Infrastructure.Repository.Interfaces;
+using RobotCleaner.Domain.Interfaces;
 using RobotCleaner.Infrastructure.Repository.Repositories;
 
 namespace RobotCleaner.CrossCutting
