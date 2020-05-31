@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
+    <PackageReference Include="Moq" Version="4.14.1" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit.ConsoleRunner" Version="3.11.1" />
+    <PackageReference Include="NUnit.Runners" Version="3.11.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BackEnd\RobotCleaner.AppServices\RobotCleaner.AppServices.csproj" />
+    <ProjectReference Include="..\BackEnd\RobotCleaner.CrossCutting\RobotCleaner.CrossCutting.csproj" />
+    <ProjectReference Include="..\BackEnd\RobotCleaner.Domain\RobotCleaner.Domain.csproj" />
+    <ProjectReference Include="..\BackEnd\RobotCleaner.Infrastructure\RobotCleaner.Infrastructure.csproj" />
+    <ProjectReference Include="..\RobotCleaner.ConsoleApp\RobotCleaner.ConsoleApp.csproj" />
+  </ItemGroup>
+
+</Project>
